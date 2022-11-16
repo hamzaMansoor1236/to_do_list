@@ -26,23 +26,23 @@ function TodoForm(props) {
   };
 
   const buttonStyle={
-    padding:"15px",
+    padding:"20px",
     backgroundColor:"#66FF99",
     borderRadius:"10px",
     fontFamily: "Arial",
-    marginLeft:"1rem",
+    marginLeft:"10px",
     fontWeight:"Bold",
-    fontSize: "20px"
+    fontSize: "15px"
 
     
   }
   const inputStyle={
-    padding:"15px",
+    padding:"20px",
     backgroundColor:"#66FF99",
     borderRadius:"10px",
     fontFamily: "Arial",
     fontWeight:"Bold",
-    fontSize: "20px"
+    fontSize: "15px"
     
   }
 
