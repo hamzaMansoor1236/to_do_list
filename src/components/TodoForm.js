@@ -26,7 +26,24 @@ function TodoForm(props) {
   };
 
   const buttonStyle={
-    padding:"10px"
+    padding:"15px",
+    backgroundColor:"#66FF99",
+    borderRadius:"10px",
+    fontFamily: "Arial",
+    marginLeft:"1rem",
+    fontWeight:"Bold",
+    fontSize: "20px"
+
+    
+  }
+  const inputStyle={
+    padding:"15px",
+    backgroundColor:"#66FF99",
+    borderRadius:"10px",
+    fontFamily: "Arial",
+    fontWeight:"Bold",
+    fontSize: "20px"
+    
   }
 
 
@@ -39,9 +56,9 @@ function TodoForm(props) {
         placeholder="Enter Task"
         value={input}
         onChange={handleChange}
-        style={buttonStyle}
+        style={inputStyle}
       ></input>
-      <button className="todo-button" style={buttonStyle}>add</button>
+      <button className="todo-button" style={buttonStyle}>Add</button>
     </form>
   );
 }

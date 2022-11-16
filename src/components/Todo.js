@@ -7,14 +7,13 @@ function Todo({ todos }) {
         backgroundColor: "white",
         padding: "10px",
         fontFamily: "Arial",
-        padding:"10px",
         borderRadius:"5px"
 
       };
-  return todos.map((todo) => (
+  return todos.map((element) => (
     <div>
 
-      <h3 key={Math.floor(Math.random() * 10000)}  style={mystyle  }>{todo}</h3>
+      <h3 key={Math.floor(Math.random() * 10000)}  style={mystyle  }>{element}</h3>
     </div>
   ));
 }

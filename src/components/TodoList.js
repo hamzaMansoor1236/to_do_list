@@ -15,7 +15,7 @@ function TodoList() {
 
   return (
     <div >
-        <h1>To do list</h1>
+        <h1 style={{color:"white"}}>To do List </h1>
       <TodoForm onSubmit={addTodo} />
       <Todo todos={todos} />
     </div>

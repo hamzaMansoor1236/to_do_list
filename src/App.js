@@ -5,9 +5,9 @@ function App() {
   const mystyle = {
         
     
-    padding: "10px",
+    padding: "15px",
     fontFamily: "Arial",
-    padding:"5px",
+    
     
 
   };
